@@ -1,0 +1,852 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>E-commerce</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+<header>
+
+<div class="logo">
+<img src="assets/cafe_logo1.png" width="190px" height="80px">
+<div class="nav" class="sub-sections">
+
+<button class="button" onclick="homepage()">Home</button>
+<button class="button" onclick="menupage()">Menu</button>
+<button class="button" onclick="aboutpage()">About</button>
+<button class="button" onclick="contactpage()">Contact</button>
+</div>
+</div>
+   
+
+<div id="home" class="sub-content" >
+<div class="home">
+ <p>WE DELIVER <br>DELICIOUS & <br><span style="color:black;"> HEALTHY FOOD</span></p>
+<div class="food">
+<h5>WELCOME  <BR> TO THE <br> <span style="color:black; background-color: azure;"> MAG'S CAFE </span> <BR>TESTY & FRESHY FOODS</h5>
+<button class="button" onclick="menupage()">Menu</button>
+</div>
+</div>
+
+<div class="container">
+<div class="photo-gallery">
+
+<div class="column">
+<div class="photo">
+<img src="assets/burger slides.jpg">
+</div>
+<div class="photo">
+<img src="assets/stick waffle slide.jpg">
+</div>
+<div class="photo">
+<img src="assets/kfc chicken slides - Copy.jpg">
+</div>
+</div>
+
+
+<div class="column">
+<div class="photo">
+<img src="assets/bread alwa.jpg">
+</div>
+<div class="photo">
+<img src="assets/sandwich slides.jpg">
+</div>
+<div class="photo">
+<img src="assets/milk shakes slides.jpg">
+</div>
+</div>
+
+
+<div class="column">
+<div class="photo">
+<img src="assets/cheesy nachos slides.jpg">
+</div>
+<div class="photo">
+<img src="assets/ice cream cfone slides.jpg">
+</div>
+<div class="photo">
+<img src="assets/sizzling brownie slides.jpg">
+</div>
+</div>
+
+</div>
+</div>
+</div>
+
+
+<div id="menu" class="sub-sections" >
+<div class="tab-nav-bar">
+<div class="tab-navigation">
+<i class="fa-solid fa-chevron-left left-btn"></i>
+<i class="fa-solid fa-chevron-right right-btn"></i>
+<ul class="tab-menu">
+<li class="tab-btn" onclick="burgerpage()">Burger</li>
+<li class="tab-btn" onclick="momopage()">Momos</li>
+<li class="tab-btn" onclick="sandwichpage()">Sandwich</li>
+<li class="tab-btn" onclick="dessertpage()">Desserts</li>
+<li class="tab-btn" onclick="lolipoppage()">Lolipop and Fingers</li>
+<li class="tab-btn" onclick="shakepage()">Shakes</li>
+<li class="tab-btn" onclick="friedchickenpage()">Fried chicken</li>
+<li class="tab-btn" onclick="wafflepage()">Waffle</li>
+<li class="tab-btn" onclick="mojitopage()">Mojitos</li>
+<li class="tab-btn" onclick="starterspage()">Starters</li>
+<li class="tab-btn" onclick="friespage()">French Fries</li>
+<li class="tab-btn" onclick="samosapage()">Samosa</li>
+<li class="tab-btn" onclick="icecreampage()">Ice Cream</li>
+<li class="tab-btn" onclick="rollspage()">Rolls</li>
+
+</ul>
+</div>
+</div> 
+
+
+<div id="burger" class="sub-content">
+  <div class="burger">
+  <div class="burger1">
+  <img src="assets/chicken burger.jpeg" width="200px" height="200px">
+  <h4>Chicken Burger</h4>
+  </div>
+  <div class="burger1">
+  <img src="assets/paneer burger.jpeg" width="200px" height="200px">
+  <h4>Paneer Burger</h4>
+  </div>
+
+  <div class="burger1">
+  <img src="assets/veg burger.webp" width="200px" height="200px">
+  <h4>Veg Burger</h4>
+  </div>
+  <div class="burger1">
+    <img src="assets/thandoori burger.jpeg" width="200px" height="200px">
+    <h4>Thandoori Burger</h4>
+    </div>
+    <div class="burger1">
+    <img src="assets/new york.jpg" width="200px" height="200px">
+    <h4>New York Burger</h4>
+    </div>
+  </div>
+
+  <div class="burger">
+  <div class="burger1">
+  <img src="assets/Classic Burger-Joint.jpeg" width="200px" height="200px">
+  <h4>Burger Joint Burger</h4>
+  </div>
+  </div>
+</div>
+
+
+
+<div id="momos" class="sub-content">
+    <div class="momos">
+    <div class="momos1">
+    <img src="assets/chicken momos.jpg" width="200px" height="200px">
+    <h4>Chicken Momos</h4>
+    </div>
+    <div class="momos1">
+    <img src="assets/corn and cheese momos.jpg"  width="200px" height="200px">
+    <h4>Corn and Cheese <Br>  Momos</h4>
+    </div>
+    <div class="momos1">
+    <img src="assets/paneer momos - Copy.jpeg"  width="200px" height="200px">
+    <h4>Paneer  Momos</h4>
+    </div>
+    <div class="momos1">
+    <img src="assets/fish momos.jpg"  width="200px" height="200px">
+    <h4>FishMomos</h4>
+    </div>
+    <div class="momos1">
+    <img src="assets/chicken peri peri momos.jpg" width="200px" height="200px">
+    <h4>Chicken Peri <br> Peri  Momos</h4>
+    </div>
+    </div>
+
+    <div class="momos">
+    <div class="momos1">
+    <img src="assets/chicken bbq.jpg" width="200px" height="200px">
+    <h4>Chicken BBQ  Momos</h4>
+    </div>
+    <div class="momos1">
+    <img src="assets/schezwan momos.jpg"  width="200px" height="200px">
+    <h4>Schezwan Momos</h4>
+    </div>
+    <div class="momos1">
+    <img src="assets/chicken tikka momos.jpg"  width="200px" height="200px">
+    <h4>Chicken Tikka Momos</h4>
+    </div>
+    <div class="momos1">
+    <img src="assets/chicken cheese momos.jpg"  width="200px" height="200px">
+    <h4>Chicken Cheese <br>Momos</h4>
+    </div>
+    <div class="momos1">
+    <img src="assets/prawn momos.jpg"  width="200px" height="200px">
+    <h4>Prawn  Momos</h4>
+    </div>
+    </div>
+
+    <div class="momos">
+    <div class="momos1">
+    <img src="assets/mix veg momos.jpg" width="200px" height="200px">
+    <h4>Mix Veg Momos</h4>
+    </div>
+    <div class="momos1">
+    <img src="assets/paneer tikka momos.jpg"  width="200px" height="200px">
+    <h4>Paneer Tikka Momos</h4>
+    </div>
+    <div class="momos1">
+    <img src="assets/butter chicken momos - Copy (2).jpg"  width="200px" height="200px">
+    <h4>Butter  Chicken  Momos</h4>
+    </div>
+    <div class="momos1">
+    <img src="assets/chocolate momos - Copy.jpg"  width="200px" height="200px">
+    <h4>Chocolate  Momos</h4>
+    </div>
+    <div class="momos1">
+    <img src="assets/corn momos.jpg"  width="200px" height="200px">
+    <h4>Corn  Momos</h4>
+    </div>
+    </div>
+</div>
+    
+
+
+<div id="sandwich" class="sub-content">
+    <div class="sandwich">
+    <div class="sandwich1">
+    <img src="assets/veg grill sandwich.jpg" width="200px" height="200px">
+    <h4>Veg Grill Sandwich</h4>
+    </div>
+    <div class="sandwich1">
+    <img src="assets/veg corn cheese sandwich.jpg"  width="200px" height="200px">
+    <h4>Veg Corn Cheese <br> Sandwich</h4>
+    </div>
+    <div class="sandwich1">
+    <img src="assets/veg moyo sandwich.jpg"  width="200px" height="200px">
+    <h4>Veg Moyo Sandwich</h4>
+    </div>
+    <div class="sandwich1">
+    <img src="assets/tandhoori paneer sandwich.jpg"  width="200px" height="200px">
+    <h4>Thandoori Paneer <br> Sandwich</h4>
+    </div>
+    <div class="sandwich1">
+    <img src="assets/potato cheese sandwich.jpg"  width="200px" height="200px">
+    <h4>Potato Cheese <br> Sandwich</h4>
+    </div>
+    </div>
+
+    <div class="sandwich">
+    <div class="sandwich1">
+    <img src="assets/chicken moyo sandwich.jpg" width="200px" height="200px">
+    <h4>Chicken Moyo <br> Sandwich</h4>
+    </div>
+    <div class="sandwich1">
+    <img src="assets/chicken cheese sandwich.jpg"  width="200px" height="200px">
+    <h4>Chicken  Cheese <br> Sandwich</h4>
+    </div>
+    <div class="sandwich1">
+    <img src="assets/chicken spicy sandwich.jpg"  width="200px" height="200px">
+    <h4>Chicken Spicy <br> Sandwich</h4>
+    </div>
+    <div class="sandwich1">
+    <img src="assets/chicken tikka sandwich.jpg"  width="200px" height="200px">
+    <h4>Chicken Tikka <br> Sandwich</h4>
+    </div>
+    <div class="sandwich1">
+    <img src="assets/corn sandwich.jpeg"  width="200px" height="200px">
+    <h4>Corn Sandwich</h4>
+    </div>
+    </div>
+</div>
+      
+    
+
+<div id="desserts" class="sub-content">
+<div class="desserts">
+    <div class="desserts1">
+    <img src="assets/brownie.jpg" width="200px" height="200px">
+    <h4>Brownie</h4>
+    </div>
+    <div class="desserts1">
+    <img src="assets/choco brownie.jpg"  width="200px" height="200px">
+    <h4>Choco Brownie</h4>
+    </div>
+    <div class="desserts1">
+    <img src="assets/choco strawberry.jpg"  width="200px" height="200px">
+    <h4>Choco Strawberry</h4>
+    </div>
+    <div class="desserts1">
+    <img src="assets/sizzling brownie.jpg"  width="200px" height="200px">
+    <h4>Sizzling Brownie</h4>
+    </div>
+    <div class="desserts1">
+    <img src="assets/chocolate fruit fledge.jpg"  width="200px" height="200px">
+    <h4>Choco Fruit Fledge</h4>
+    </div>
+    </div>
+    </div>
+
+
+
+<div id="lolipop"  class="sub-content">
+<div class="lolipop" >
+    <div class="lolipop1">
+    <img src="assets/lolipop.jpg" width="200px" height="200px">
+    <h4>Chicken Lolipop</h4>
+    </div>
+    <div class="lolipop1">
+    <img src="assets/crab lolipop.jpg"  width="200px" height="200px">
+    <h4>Crab Lolipop</h4>
+    </div>
+    <div class="lolipop1">
+    <img src="assets/fish finger.jpg"  width="200px" height="200px">
+    <h4>Fish Finger</h4>
+    </div>
+    <div class="lolipop1">
+    <img src="assets/potato lolipop.jpg"  width="200px" height="200px">
+    <h4>Potato Lolipop</h4>
+    </div>
+    <div class="lolipop1">
+    <img src="assets/kurekure liolipop.jpg"  width="200px" height="200px">
+    <h4>kurekure Lolipop</h4>
+    </div>
+    </div>
+    </div>
+    
+
+
+<div id="shakes" class="sub-content">
+<h6>Milk & Thick Shakes</h6>
+<div class="shakes">
+    <div class="shakes1">
+    <img src="assets/vennila shake.jpg" width="200px" height="200px">
+    <h4>Vennila Shake</h4>
+    </div>
+    <div class="shakes1">
+    <img src="assets/blackcurrent shakes.jpg"  width="200px" height="200px">
+    <h4>blackcurrent Shake</h4>
+    </div>
+    <div class="shakes1">
+    <img src="assets/butterscotch shake.jpg"  width="200px" height="200px">
+    <h4>butterscotch Shake</h4>
+    </div>
+    <div class="shakes1">
+    <img src="assets/chocolate shake.jpg"  width="200px" height="200px">
+    <h4>Chocolate Shake</h4>
+    </div>
+    <div class="shakes1">
+    <img src="assets/caramel sake.jpg"  width="200px" height="200px">
+    <h4>Caramel Shake</h4>
+    </div>
+    </div>
+        
+<div class="desserts">
+<div class="shakes1">
+    <img src="assets/blueberry shake.jpg"  width="200px" height="200px">
+    <h4>blueberry Shake</h4>
+    </div>
+    <div class="shakes1">
+    <img src="assets/badam shake.jpg"  width="200px" height="200px">
+    <h4>Badam Shake</h4>
+    </div>
+    <div class="shakes1">
+    <img src="assets/mango shake.jpg"  width="200px" height="200px">
+    <h4>Mango Shake</h4>
+    </div>
+    <div class="shakes1">
+    <img src="assets/rose milk.jpg"  width="200px" height="200px">
+    <h4>Rose Milk Shake</h4>
+    </div>
+    <div class="shakes1">
+    <img src="assets/orea shake.jpg"  width="200px" height="200px">
+     <h4>Orea Shake</h4>
+     </div>
+    </div>
+
+    <div class="desserts">
+    <div class="shakes1">
+    <img src="assets/kitkat shake.jpg"  width="200px" height="200px">
+    <h4>Kit Kat Shake</h4>
+    </div>
+    </div>
+        
+    
+<h6>Fav... Time Pass</h6>
+<div class="shakes">
+    <div class="shakes1">
+    <img src="assets/cold coffee.jpg" width="200px" height="200px">
+    <h4>Cold Coffee</h4>
+    </div>
+    <div class="shakes1">
+    <img src="assets/ice boost.jpg"  width="200px" height="200px">
+    <h4>Ice Boost</h4>
+    </div>
+    <div class="shakes1">
+    <img src="assets/horlicks shake.jpg"  width="200px" height="200px">
+    <h4>Chill Horlicks</h4>
+    </div>
+    <div class="shakes1">
+    <img src="assets/chill badam milk.jpg"  width="200px" height="200px">
+    <h4>Chill Badam Milk</h4>
+    </div>
+    </div>
+    </div>
+
+ <div id="friedchicken" class="sub-content">
+    <h6>Mags Fried Chicken</h6>
+    <div class="friedchicken">
+    <div class="friedchicken1">
+    <img src="assets/chicken popcorn.jpg" width="200px" height="200px">
+    <h4>Chicken Popcorn</h4>
+    </div>
+    <div class="friedchicken1">
+    <img src="assets/crispy fried chicken.jpg"  width="200px" height="200px">
+    <h4>Crispy Fried <br> Chicken</h4>
+    </div>
+     <div class="friedchicken1">
+    <img src="assets/peri peri fried chicken.jpg"  width="200px" height="200px">
+    <h4>Peri Peri <br>Fried Chicken</h4>
+    </div>
+    <div class="friedchicken1">
+    <img src="assets/kure kure fried chicken.jpg"  width="200px" height="200px">
+    <h4>KureKure<br> Fried Chicken</h4>
+    </div>
+   </div>
+        
+    <h6> Bucket Chicken</h6>
+    <div class="friedchicken">
+    <div class="friedchicken1">
+    <img src="assets/bucket chicken.jpg" width="200px" height="200px">
+    <h4>Bucket Chicken</h4>
+    </div>
+    <div class="friedchicken1">
+    <img src="assets/peri peri bucket chicken.jpg"  width="200px" height="200px">
+    <h4>Peri Peri <br> Bucket Chicken</h4>
+    </div>
+    <div class="friedchicken1">
+    <img src="assets/kure kure bucket chicken.jpg"  width="200px" height="200px">
+    <h4>kurekure <br> Bucket Chicken</h4>
+    </div>
+    </div>
+    </div>
+
+<div id="mojito" class="sub-content">
+    <div class="mojito">
+    <div class="mojito1">
+    <img src="assets/mango mojito.jpg" width="200px" height="200px">
+    <h4>Mango Mojito</h4>
+    </div>
+    <div class="mojito1">
+    <img src="assets/litchi mojito.jpg" width="200px" height="200px">
+    <h4>Litchi Mojito</h4>
+    </div>
+    <div class="mojito1">
+    <img src="assets/lemon mojito.jpg" width="200px" height="200px">
+    <h4>Lemon Mojito</h4>
+    </div>
+    <div class="mojito1">
+    <img src="assets/pine apple mojito.jpg" width="200px" height="200px">
+    <h4>Pine Apple Mojito</h4>
+    </div>
+    <div class="mojito1">
+    <img src="assets/Blue Mojitos.jpg" width="200px" height="200px">
+    <h4>Blue Curacao</h4>
+    </div>
+    </div>
+      
+    <div class="mojito">
+    <div class="mojito1">
+    <img src="assets/blue berry mojito.jpg" width="200px" height="200px">
+    <h4>Blue Berry Mojito</h4>
+    </div>
+    <div class="mojito1">
+    <img src="assets/green apple.jpg" width="200px" height="200px">
+    <h4>Green Apple</h4>
+    </div>
+    <div class="mojito1">
+    <img src="assets/straberry mojito.jpg" width="200px" height="200px">
+    <h4>Strawberry Mojito</h4>
+    </div>
+    </div>
+    </div>
+
+<div id="starter" class="sub-content">
+    <div class="starter">
+    <div class="starter1">
+    <img src="assets/chicken cutlet.jpg" width="200px" height="200px">
+    <h4>Chicken Cutlet</h4>
+    </div>
+    <div class="starter1">
+    <img src="assets/chicken nugets.jpg" width="200px" height="200px">
+    <h4>Chicken Nugets</h4>
+    </div>
+    <div class="starter1">
+    <img src="assets/potato cheese balls.jpg" width="200px" height="200px">
+    <h4>Potato Cheese Balls</h4>
+    </div>
+    <div class="starter1">
+    <img src="assets/potato smilies.jpg" width="200px" height="200px">
+    <h4>Potato Smilies</h4>
+    </div>
+    <div class="starter1">
+    <img src="assets/sweet corn.jpg" width="200px" height="200px">
+    <h4>Sweet Corn</h4>
+    </div>
+    </div>
+          
+    <div class="starter">
+    <div class="starter1">
+    <img src="assets/veg cutlet.jpg" width="200px" height="200px">
+    <h4>Veg Cutlet</h4>
+    </div>
+    <div class="starter1">
+    <img src="assets/chicken murthapa.jpg" width="200px" height="200px">
+    <h4>Chicken Murthapa</h4>
+    </div>
+    </div>
+    </div>
+
+<div id="frenchfries" class="sub-content">
+    <h6>French Fries</h6>
+    <div class="frenchfries">
+    <div class="frenchfries1">
+    <img src="assets/peri peri french fries.jpg" width="200px" height="200px">
+    <h4>Peri Peri French Fries</h4>
+    </div>
+    <div class="frenchfries1">
+    <img src="assets/plain french fries.jpg" width="200px" height="200px">
+    <h4>Plain French Fries</h4>
+    </div>
+    <div class="frenchfries1">
+    <img src="assets/crispy french fries.jpg" width="200px" height="200px">
+    <h4>Crispy French Fries</h4>
+    </div>
+    <div class="frenchfries1">
+    <img src="assets/kurekure french fries.jpg" width="200px" height="200px">
+    <h4>kurekure French Fries</h4>
+    </div>
+    </div>
+    
+<h6>Cheesy And Crunchy</h6>
+<div class="frenchfries">
+    <div class="frenchfries1">
+    <img src="assets/cheese french fries.jpg" width="200px" height="200px">
+    <h4>Cheese French Fries</h4>
+    </div>
+    <div class="frenchfries1">
+    <img src="assets/cheese nachos.jpg"  width="200px" height="200px">
+    <h4>Cheese Nachos</h4>
+    </div>
+    <div class="frenchfries1">
+    <img src="assets/plain nachos.jpg"  width="200px" height="200px">
+    <h4>Plain Nachos</h4>
+    </div>
+    </div>
+    </div>
+
+    <div id="waffle" class="sub-content">
+        <h6>Waffle</h6>
+        <div class="waffle">
+        <div class="waffle1">
+        <img src="assets/choco waffle.jpg" width="200px" height="200px">
+        <h4>Choco Waffle</h4>
+        </div>
+        <div class="waffle1">
+        <img src="assets/carmel filing.jpg" width="200px" height="200px">
+        <h4>Caramel Filling <br> Waffle</h4>
+        </div>
+        <div class="waffle1">
+        <img src="assets/white house waffle.jpg" width="200px" height="200px">
+        <h4>White House <br> Waffle</h4>
+        </div>
+        <div class="waffle1">
+        <img src="assets/butterscotch filling waffle.jpg" width="200px" height="200px">
+        <h4>ButterScotch <br>Filling Waffle</h4>
+        </div>
+        <div class="waffle1">
+        <img src="assets/death by chocolate stick waffle.jpg" width="200px" height="200px">
+        <h4>Death By <br>Chocolate Waffle</h4>
+        </div>
+        </div>
+
+        <div class="waffle">
+        <div class="waffle1">
+        <img src="assets/butterscotch filling waffle.jpg" width="200px" height="200px">
+        <h4>Nutella nd Nuts</h4>
+        </div>
+        <div class="waffle1">
+        <img src="assets/death by chocolate stick waffle.jpg" width="200px" height="200px">
+        <h4>Tripple Chocolate</h4>
+        </div>
+        </div>
+            
+    <h6>Stick Waffle</h6>
+        <div class="waffle">
+        <div class="waffle1">
+        <img src="assets/choco nd churros stick waffle.jpg" width="200px" height="200px">
+        <h4>Choco & Churros</h4>
+        </div>
+        <div class="waffle1">
+        <img src="assets/brownie stick waffle.jpg"  width="200px" height="200px">
+        <h4>Brownie Waffle</h4>
+        </div>
+        <div class="waffle1">
+        <img src="assets/death by chocolate stick waffle.jpg"  width="200px" height="200px">
+        <h4>Death By Chocolate</h4>
+        </div>
+        <div class="waffle1">
+        <img src="assets/tripple chocolate stcik waffle.jpg"  width="200px" height="200px">
+        <h4>Tripple Chocolate</h4>
+        </div>
+        </div>
+        </div>   
+    
+
+<div id="samosa"  class="sub-content">
+    <div class="samosa" >
+    <div class="samosa1">
+    <img src="assets/corn samosa.jpg" width="200px" height="200px">
+    <h4>Corn Samosa</h4>
+    </div>
+    <div class="samosa1">
+    <img src="assets/chicken samosa.jpg"  width="200px" height="200px">
+    <h4>Chicken Samosa</h4>
+    </div>
+    <div class="samosa1">
+    <img src="assets/mutton samosa.jpg"  width="200px" height="200px">
+    <h4>Mutton Samosa</h4>
+    </div>
+    <div class="samosa1">
+    <img src="assets/paneer samosa.jpg"  width="200px" height="200px">
+    <h4>Paneer Samosa</h4>
+    </div>
+    </div>
+    </div>
+
+<div id="roll" class="sub-content">
+    <h6>Rolls</h6>
+    <div class="roll">
+    <div class="roll1">
+    <img src="assets/chicken roll.jpg" width="200px" height="200px">
+    <h4>Chicken Roll</h4>
+    </div>
+    <div class="roll1">
+    <img src="assets/mutton roll.jpg" width="200px" height="200px">
+    <h4>Mutton Roll</h4>
+    </div>
+    <div class="roll1">
+    <img src="assets/veg roll.jpg" width="200px" height="200px">
+    <h4>Veg Roll</h4>
+    </div>
+    <div class="roll1">
+    <img src="assets/paneer roll.jpg" width="200px" height="200px">
+    <h4>Paneer Roll</h4>
+    </div>
+    </div>
+        
+<h6>Wrap</h6>
+    <div class="roll">
+    <div class="roll1">
+    <img src="assets/chicken roll wrap.jpg" width="200px" height="200px">
+    <h4>Chicken Roll Wrap</h4>
+    </div>
+    <div class="roll1">
+    <img src="assets/mutton roll wrap.jpg"  width="200px" height="200px">
+    <h4>Mutton Roll Wrap</h4>
+    </div>
+    <div class="roll1">
+    <img src="assets/veg wrap.jpg"  width="200px" height="200px">
+    <h4>Veg Roll Wrap</h4>
+    </div>
+    <div class="roll1">
+    <img src="assets/paneer wrap.jpg"  width="200px" height="200px">
+    <h4>Paneer Roll Wrap</h4>
+    </div>
+    </div>
+    </div>   
+
+<div id="ice" class="sub-content">
+    <div class="ice">
+    <div class="ice1">
+    <img src="assets/blackcurrent scoops.jpg" width="200px" height="200px">
+    <h4>BlackCurrent Scoops</h4>
+    </div>
+    <div class="ice1">
+    <img src="assets/butterscotch scoops.jpg" width="200px" height="200px">
+    <h4>ButterScotch Scoops</h4>
+    </div>
+    <div class="ice1">
+    <img src="assets/chocolate scoops.jpg" width="200px" height="200px">
+    <h4>Chocolate Scoops</h4>
+    </div>
+    <div class="ice1">
+    <img src="assets/kesar pista scoops.jpg" width="200px" height="200px">
+    <h4>KesarPista Scoops</h4>
+    </div>
+    <div class="ice1">
+    <img src="assets/pineapple scoops.jpg" width="200px" height="200px">
+    <h4>Pineapple Scoops</h4>
+    </div>
+    </div> 
+   
+
+<div class="ice">
+    <div class="ice1">
+    <img src="assets/mango scoops.jpg" width="200px" height="200px">
+    <h4>Mango Scoops</h4>
+    </div>
+    <div class="ice1">
+    <img src="assets/pista scoops.jpg" width="200px" height="200px">
+    <h4>Pista Scoops</h4>
+    </div>
+    <div class="ice1">
+    <img src="assets/strawberry scoops.jpg" width="200px" height="200px">
+    <h4>Strawberry Scoops</h4>
+    </div>
+    <div class="ice1">
+    <img src="assets/vanilla scoops.jpg" width="200px" height="200px">
+    <h4>Vanilla Scoops</h4>
+    </div> 
+    <div class="ice1">
+    <img src="assets/mixed flavour.jpg" width="200px" height="200px">
+    <h4>Mixed Flavours Scoops</h4>
+    </div>                               
+    </div>
+    </div>
+    </div>
+    
+
+
+<div id="about" class="sub-sections" >
+<div class="about">
+<h2>"Where every brew tells a story, and every taste paints a picture."</h2>
+<div class="magslogo">
+<img src="assets/Mag’s cafe.png" width="500px" height="300px">
+</div>
+<h1>Who We Are?</h1> <h6> A Food Brand from - The House of Mag's Cafe</h6>
+<h1> What We Do? </h1> <h6>Provide Delectable Foods at Unbeatable Prices Always Fresh Offerings In Cafe</h6>
+<h1> Where  We’ve Are?</h1> <h6> Currently in Gudiyattam in TamilNadu, Coming soon to your City </h6>
+
+<h3>Our Story</h3>
+<div class="ceo">
+<img src="assets/founder.jpg" width="200px" height="200px">
+<h5>M. BHUVANESH RAJ</h5>
+<h4>Founder Of Mag's Cafe</h4>
+</div>
+<p> "My friend suggested many business ideas for starting a startup,  but we was drawn only to the <br> food industry, 
+    specifically cafes and restaurants. After considering  various franchise  options, We <br> had an epiphany: 
+    why not create my own brand? To prepare for this, we decided to gain practical <br> experience  in cooking 
+    different dishes. With time, we honed my skills and developed numerous <br> ideas for unique food offerings. Finally, 
+    feeling confident and well-prepared, we decided to take <br> the plunge and open our own cafe. In honor of my father,
+    we named it <b>'MAG'S Cafe'</b> after him, <br> with <b> ('Magendran Singaram')</b> as a tribute to our family. Opening 
+    this cafe has been a dream for <br> seven years, and now it's finally coming true.</b> and we excited to embark  on this journey, 
+    armed with <br> knowledge and passion for food."</p>
+
+<h4>Intro of our Cafe</h4>
+<h5>Our Cafe Open at MAY 19 2024</h5>
+</div>
+<div class="container">
+    <div class="photo-gallery">
+    
+    <div class="column">
+    <div class="photo">
+    <img src="assets/cafe1.jpg" >
+    </div>
+    <div class="photo">
+    <img src="assets/cafe2.jpg">
+    </div>
+    <div class="photo">
+    <img src="assets/cafe8.jpg">
+    </div>
+    </div>
+    
+    
+    <div class="column">
+    
+    <div class="photo">
+    <img src="assets/cafe7.jpg">
+    </div>
+    <div class="photo">
+    <img src="assets/cafe5.jpg">
+    </div>
+    <div class="photo">
+    <img src="assets/cafe6.jpg">
+    </div>
+   
+    </div>
+    
+    </div>
+    </div>
+    
+    
+</div>
+
+
+
+<div id="contact" class="sub-sections" >
+<div class="contact">
+<h4>Contact Info</h4>
+<div class="contactus">
+
+<div class="mail">
+<i class="fa-solid fa-location-dot"></i>
+<a href="https://maps.app.goo.gl/jpCZZ4zYeDM9P2gU9" target="_blank"><b>No.21, R.S. Nagar Katpadi Road, Gudiyattam, Vellore District</b></a>
+</div>
+
+<div class="mail">
+<i class="fa-regular fa-envelope"></i>
+<a href="mailto:bhuvaneshrajsmart@gmail.com" target="_blank"><b>bhuvaneshraj<br>smart@gmail.com</b></a>
+</div>
+
+<div class="mail">
+<i class="fa-solid fa-phone"></i>
+<a href="tel:6381227300" target="_blank"><b>+91 6381227300</b></a>
+</div>
+</div>
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.378283566548!2d78.8760444!3d12.9476288!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bad6d0a72b4b7ab%3A0x70cf0d1426645b5e!2zTWFn4oCZcyBDYWZl!5e0!3m2!1sen!2sin!4v1715947553061!5m2!1sen!2sin" target="_blank" width="1090" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+</div>
+</div>
+
+</header>
+
+<footer>
+    <div class="downpage">
+    <div class="brand">
+    <h3><b>OUR BRAND</b></h3>
+    <img src="assets/cafe_logo1.png" width="183px" height="150px">
+    </div>
+ 
+    <div class="address">
+    <h3><b>ADDRESS</b></h3>
+    <p>No.21, R.S Nagar, Katpadi Road, Gudiyattam, Vellore District</p>
+    </div>
+
+    <div class="link">
+    <h3><b>LINKS</b></h3>
+    <a href="https://maps.app.goo.gl/jpCZZ4zYeDM9P2gU9">Location</a><br>
+    <button class="button" onclick="menupage()">Menu</button><br>
+    <button class="button" onclick="contactpage()">Contact Us</button><br>
+    </div>
+    
+    <div class="icon">
+    <h3><b>GET IN TOUCH</b></h3>
+    <a href="https://www.instagram.com/mags_cafe_gudiyatham/"  target="_blank">
+    <i class="fab fa-instagram" ></i> </a>
+    <a href="https://www.youtube.com/channel/UCr1gE-nowkyRKrOxzcOqtyQ"  target="_blank">
+    <i class="fa-brands fa-youtube" ></i> </a>
+    </div>
+    </div>
+    
+    <div class="copy">
+    <h4>All right Reserved @ <span style="color: yellow;"> Mag's  Cafe</span> 2024</h4>
+    </div>
+
+</footer>
+<script src="script.js"></script>
+
+</script>
+</body>

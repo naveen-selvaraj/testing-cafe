@@ -1,0 +1,993 @@
+
+.logo{
+    overflow: hidden;
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+    z-index: 1000;
+}
+.nav { 
+   margin-top: 20px;
+   background-color:#333333;
+   margin-left: 100px;
+ 
+}
+
+.nav button {
+    margin-left: 100px;
+    border-style: solid;
+    border-style: none;
+    background-color:#333333;
+    height: 30px;
+    width: 70px;
+    color: azure;
+   
+ } 
+
+.nav button:hover {
+    background-color: red;
+    border-radius: 5px;
+   
+
+}
+.logo {
+    
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #333333;
+     padding: 5px;
+        }
+
+p {
+    font-size: 17px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 4%;
+    padding-left: 4%;
+    color: white; 
+        }
+
+ .home {
+    background-image: url("brownie.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    margin-top: 80px;
+     }
+
+
+footer {
+    background-color:#333333;
+    color: white;
+    margin-top: 20px;
+    padding-bottom: 20px;
+     
+    }
+
+footer h4 {
+     margin-left: 550px;
+     font-size: 20px;
+    }
+
+.food {
+    margin-left: 1110px;
+    color:blue;
+   
+   
+}
+.food h5{
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+     
+}
+
+
+
+ .food button {
+     border-style: solid;
+     border-radius: 10px;
+     background-color: green;
+     margin-left: 25px;
+     color: azure;
+     }
+ .food button:hover{
+    background-color: violet;
+     }
+
+
+
+
+.item1 {
+     display: flex;
+     flex-wrap: wrap;
+    }
+
+.item {
+    margin-left: 230px;
+    margin-top: 90px;
+    }
+
+h3 {
+    margin-left: 300px;
+    }
+ .burger{
+ 
+   margin-top: 30px;
+   margin-left: 35px;
+ }   
+
+.about p{
+color:black;
+font-family:'Times New Roman', Times, serif ;
+word-spacing: 5px;
+line-height: 24px;
+margin-left: 260px;
+   
+}
+.about h2{
+   
+color: azure;
+background-color:#486a47;
+padding: 20px;
+padding-left: 130px;
+margin-top: 100px;
+    
+ }
+.magslogo img{
+margin-left: 410px;
+margin-top: 30px;
+}
+.about h1{
+font-size: 40px;
+margin-left: 530px;
+margin-top: 30px;
+width: 600px;
+padding: 10px;
+   }
+.about h6{
+
+margin-left: 370px;
+font-size: 23px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+color: grey
+}
+
+
+.about h3 {
+font-size: 30px;
+margin-left: 590px;
+margin-top: 30px;
+color:#ff007f;
+ font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+.about h4{
+ margin-left: 560px;
+ color:#ff007f;
+ font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+.about h5{
+margin-left: 500px;
+color: black;
+background-color: rgb(122, 70, 6);
+width: 300px;
+padding: 8px;
+  }
+.cafeimg {
+ display: flex;
+ flex-wrap: wrap;
+   
+}
+.cafe{
+margin-left: 100px;
+margin-top: 60px;
+  }
+.mail{
+color:black;
+margin-left: 95px;
+margin-top: 60px;
+background-color: #486a47 ;
+width: 300px;
+height: 200px;
+text-align: center;
+padding-top: 80px;
+
+  }
+.mail i{
+     
+    color: red;
+}
+.contact h4{
+margin-top: 150px;
+margin-left: 98px;
+
+  }
+.contact iframe{
+margin-top: 50px;
+margin-left: 97px;
+}
+.mail a{
+text-decoration: none;
+color: white;
+margin-left: 5px;
+}
+.mail a:hover{
+color:rgb(99, 21, 21);
+}
+.contactus{
+    display: flex;
+}
+.icon i{
+    text-decoration: none;
+    color:white;
+    border-style: solid;
+    border-color:black;
+    padding: 10px;
+    border-color: darkgray;
+    border-width: 1px;
+    margin-left: 20px;
+}
+.icon i:hover{
+ background-color: red;
+}
+.icon{
+    margin-left: 600px;
+    margin-top: 50px;
+}
+#menu{
+    
+    background-color: bisque;
+    padding: 10px;
+}
+.burger {
+    display:flex;
+    
+}
+.burger1{
+    margin-left: 20px;
+    margin-top: 40px;
+    background-color: white;
+    padding: 7px;
+    border-radius: 10px;
+}
+.burger1 h4{
+    margin-left: 20px;
+    font-size: 17px;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+
+.momos {
+    display:flex;
+    
+}
+.momos1{
+    margin-left: 35px;
+    margin-top: 40px;
+    background-color: white;
+    padding: 7px;
+    border-radius: 10px;
+}
+.momos1 h4{
+    margin-left: 20px;
+    font-size: 17px;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+.sandwich {
+    display:flex;
+   
+    
+}
+.sandwich1{
+    margin-left: 30px;
+    margin-top: 40px;
+    background-color: white;
+    padding: 7px;
+    border-radius: 10px;
+}
+.sandwich1 h4{
+    margin-left: 20px;
+    font-size: 17px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.desserts { 
+    display:flex;
+    
+    
+}
+.desserts1{
+    margin-left: 30px;
+    margin-top: 50px;
+    background-color: white;
+    padding: 7px;
+    border-radius: 10px;
+}
+.desserts1 h4{
+    margin-left: 30px;
+    font-size: 17px;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+.lolipop { 
+    display:flex;
+    
+    
+}
+.lolipop1{
+    margin-left: 30px;
+    margin-top: 50px;
+    background-color: white;
+    padding: 7px;
+    border-radius: 10px;
+}
+.lolipop1 h4{
+    margin-left: 30px;
+    font-size: 17px;
+    font-weight: bold;
+    margin-top: 8px;
+}
+.shakes { 
+    display:flex;
+    
+    
+}
+.shakes1{
+    margin-left: 30px;
+    margin-top: 50px;
+    background-color: white;
+    padding: 7px;
+    border-radius: 10px;
+}
+.shakes1 h4{
+    margin-left: 30px;
+    font-size: 17px;
+    font-weight: bold;
+    margin-top: 8px;
+}
+#shakes h6{
+    margin-left: 35px;
+    font-size: 25px;
+    background-color: rgb(61, 6, 6);
+    color: white;
+    width: 250px;
+    padding: 10px;
+    margin-top: 40px;
+    border-radius: 5px;
+}
+.friedchicken { 
+    display:flex;
+    
+    
+}
+.friedchicken1{
+    margin-left: 30px;
+    margin-top: 50px;
+    background-color: white;
+    padding: 7px;
+    border-radius: 10px;
+}
+.friedchicken1 h4{
+    margin-left: 30px;
+    font-size: 17px;
+    font-weight: bold;
+    margin-top: 8px;
+}
+#friedchicken h6{
+    margin-left: 35px;
+    font-size: 25px;
+    background-color: rgb(61, 6, 6);
+    color: white;
+    width: 250px;
+    padding: 10px;
+    margin-top: 40px;
+    border-radius: 5px;
+}
+.mojito {
+    display:flex;
+   
+    
+}
+.mojito1{
+    margin-left: 30px;
+    margin-top: 40px;
+    background-color: white;
+    padding: 7px;
+    border-radius: 10px;
+}
+.mojito1 h4{
+    margin-left: 20px;
+    font-size: 17px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.starter {
+    display:flex;
+   
+    
+}
+.starter1{
+    margin-left: 30px;
+    margin-top: 40px;
+    background-color: white;
+    padding: 7px;
+    border-radius: 10px;
+}
+.starter1 h4{
+    margin-left: 20px;
+    font-size: 17px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.frenchfries {
+    display:flex;
+   
+    
+}
+.frenchfries1{
+    margin-left: 30px;
+    margin-top: 40px;
+    background-color: white;
+    padding: 7px;
+    border-radius: 10px;
+}
+.frenchfries1 h4{
+    margin-left: 20px;
+    font-size: 17px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+#frenchfries h6{
+    margin-left: 35px;
+    font-size: 25px;
+    background-color: rgb(61, 6, 6);
+    color: white;
+    width: 200px;
+    padding: 10px;
+    margin-top: 40px;
+    border-radius: 5px;
+}
+.samosa {
+    display:flex;
+   
+    
+}
+.samosa1{
+    margin-left: 30px;
+    margin-top: 40px;
+    background-color: white;
+    padding: 7px;
+    border-radius: 10px;
+}
+.samosa1 h4{
+    margin-left: 20px;
+    font-size: 17px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.roll {
+    display:flex;
+   
+    
+}
+.roll1{
+    margin-left: 30px;
+    margin-top: 40px;
+    background-color: white;
+    padding: 7px;
+    border-radius: 10px;
+}
+.roll1 h4{
+    margin-left: 20px;
+    font-size: 17px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+#roll h6{
+    margin-left: 35px;
+    font-size: 25px;
+    background-color: rgb(61, 6, 6);
+    color: white;
+    width: 100px;
+    padding: 10px;
+    margin-top: 40px;
+    border-radius: 5px;
+}
+
+.ice {
+    display:flex;
+   
+    
+}
+.ice1{
+    margin-left: 30px;
+    margin-top: 40px;
+    background-color: white;
+    padding: 7px;
+    border-radius: 10px;
+}
+.ice1 h4{
+    margin-left: 20px;
+    font-size: 17px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.waffle { 
+    display:flex;
+    
+    
+}
+.waffle1{
+    margin-left: 30px;
+    margin-top: 50px;
+    background-color: white;
+    padding: 7px;
+    border-radius: 10px;
+}
+.waffle1 h4{
+    margin-left: 30px;
+    font-size: 17px;
+    font-weight: bold;
+    margin-top: 8px;
+}
+#waffle h6{
+    margin-left: 35px;
+    font-size: 25px;
+    background-color: rgb(61, 6, 6);
+    color: white;
+    width: 170px;
+    padding: 10px;
+    margin-top: 40px;
+    border-radius: 5px;
+}
+
+
+
+
+
+.container{
+    max-width: 1224px;
+    width: 50%;
+    margin: auto;
+    padding: 40px 0;
+   
+}
+.photo-gallery{
+    display: flex;
+    gap: 5px;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.photo img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+.brand h3{
+    margin-left: 30px;
+    font-size: 15px;
+
+}
+.brand{
+    margin-top: 60px;
+}
+.address{
+    margin-top: 60px;
+    margin-right: 60px;
+    
+}
+.address h3{
+    font-size: 15px ;
+    margin-left: 120px;
+   
+}
+.address p{
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 100px;
+}
+.downpage{
+    display: flex;
+}
+
+.icon{
+    margin-left: 190px;
+}
+.icon h3{
+    margin-left: 20px;
+    font-size: 15px;
+}
+.icon i{
+    margin-top: 10px;
+}
+.copy{
+    border-top: solid;
+    border-width: 1px;
+    border-color: grey;
+    
+}
+.copy h4{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 19px;
+    margin-left: 450px;
+    
+}
+.link{
+    margin-top: 50px;
+    margin-left: 40px;
+}
+.link h3{
+   font-size: 15px;
+   margin-left: 5px;
+}
+.link a{
+    text-decoration: none;
+    color: white;
+    margin-left: 5px;
+    
+}
+.link a:hover{
+color: red;
+}
+.link .button{
+    background-color: #333333;
+    color: aliceblue;
+    border-style: none;
+    
+}
+.link .button:hover{
+    color: red;
+}
+ 
+.tab-menu{
+    margin-top: 100px;
+    color: white;
+    background-color: black;
+    border-radius: 8px;
+    list-style: none;
+    max-width: 800px;
+    padding: 5px;
+    white-space: nowrap;
+    border-bottom: 1px solid;
+    margin-left: 30px;
+    overflow-x: auto;
+    user-select: none;
+    transition: 0.3s ease;
+
+    
+}
+.tab-menu::-webkit-scrollbar{
+    display: none;
+}
+.tab-btn{
+    display: inline-block;
+    font-size: 1em;
+    font-weight: 400;
+    margin: 0 2px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+.tab-btn:hover{
+    background-color: red;
+    
+}
+.tab-nav-bar{
+    position: relative;
+    margin: 65px 10px 40px 10px;
+
+}
+.tab-navigation{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: fit-content;
+    margin: 0 auto;
+
+}
+.left-btn, .right-btn{
+    position: absolute;
+    color: white;
+    font-size: 1.8em;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 80px;
+
+}
+.left-btn{
+   left: 30px;
+   background-color: black;
+   border-radius: 15px 0 0 15px;
+  
+}
+.left-btn:hover{
+    background-color: blue;
+    border-radius: 15px;
+}
+.right-btn{
+    right: 0;
+    background-color: black;
+    border-radius: 0px 15px 0 15px;
+  
+    
+}
+.right-btn:hover{
+    background-color: blue;
+    border-radius: 15px;
+}
+.ceo img{
+    margin-left: 550px;
+    margin-top: 30px;
+    background-color: rgb(31, 84, 131);
+    padding: 5px;
+    border-radius:50%;
+    transition: transform .2s;
+}
+
+.ceo img:hover {
+    -ms-transform: scale(1.1); 
+    -webkit-transform: scale(1.1); 
+    transform: scale(1.1); 
+}
+
+.ceo h4{
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 518px;
+}
+.ceo h5{
+    margin-top: 5px;
+    color:blue;
+    background-color: white;
+    margin-left: 543px;
+}
+
+
+@media(max-width:768px){
+    .photo-gallery{
+        flex-direction: column;
+    }
+    .tab-navigation{
+        margin-top: 100px;
+        margin-right: 20px;
+    }
+    .tab-btn{
+       margin-left: 0px;
+       padding-left: 35px;
+    }
+    .burger{
+        flex-wrap: wrap;
+        margin-right: 50px;
+    }
+    .momos{
+        flex-wrap: wrap;
+        margin-right: 20px;
+        padding: 10px;
+    }
+    .sandwich{
+        flex-wrap: wrap;
+        margin-right: 0px;
+        font-size: 20px;
+        padding: 25px;
+    }
+    .desserts{
+        flex-wrap: wrap;
+        margin-right: 20px;
+        padding: 10px;
+    }
+    .lolipop{
+        flex-wrap: wrap;
+        margin-right: 20px;
+        padding: 10px;
+    }
+
+    .waffle{
+        flex-wrap: wrap;
+        margin-right: 20px;
+        padding: 10px;
+    }
+    .shakes{
+        flex-wrap: wrap;
+        margin-right: 20px;
+        padding: 10px;
+    }
+    .friedchicken{
+        flex-wrap: wrap;
+        margin-right: 20px;
+        padding: 10px;
+    }
+    .mojito{
+        flex-wrap: wrap;
+        margin-right: 20px;
+        padding: 10px;
+    }
+    .starter{
+        flex-wrap: wrap;
+        margin-right: 20px;
+        padding: 10px;
+    }
+    .frenchfries{
+        flex-wrap: wrap;
+        margin-right: 20px;
+        padding: 10px;
+  }
+  .samosa{
+       flex-wrap: wrap;
+        margin-right: 20px;
+        padding: 10px;
+  }
+  .ice{
+        flex-wrap: wrap;
+        margin-right: 20px;
+        padding: 10px;
+  }
+  .roll{
+        flex-wrap: wrap;
+        margin-right: 20px;
+        padding: 10px;
+  }
+  .downpage{
+     flex-wrap: wrap;
+     margin-right: 50px;
+  }
+  .address{
+    margin-right: 0px;
+
+  }
+  .address h3{
+    margin-left: 35px
+  }
+  .address p{
+    margin-left: 20px;
+  }
+  .brand{
+    margin-left: 0px;
+  }
+  .brand img{
+    margin-left: 30px;
+  }
+  
+  .link{
+    margin-left: 30px;
+  }
+  .icon{
+    margin-left: 15px;
+    margin-right: 150px;
+
+    
+  }
+  .copy h4{
+    margin-left: 15px;
+    margin-top: 30px;
+}
+.copy{
+    margin-top: 20px;
+}
+.home p{
+    margin-right: 100px;
+    margin-top: 140px;
+    font-size: 10px;
+}
+.food h5 {
+    margin-right: 230px;
+    width: 90%;
+    font-size: 10px;
+}
+.food{
+    margin-left: 280px;
+    
+}
+
+.food button{
+    margin-left: 0px;
+    font-size: 10px;
+}
+.about{
+    width: 70%;
+}
+.about h2{
+    padding: 20px;
+    font-size: 24px;
+    margin-top: 170px;
+    width: 142%;
+    
+}
+.about  .magslogo img {
+    width: 90%;
+    height: auto;
+    margin-left: 60px;
+       
+}
+    
+.about   h1{
+        font-size: 25px;
+        padding: 20px; 
+        margin-left: 65px;
+        width: 100%; 
+    }
+.about   p {
+        font-size: 16px;
+        margin-left: 30px;
+        width: 120%;
+    }
+.about h6 {
+        font-size: 16px;
+        padding: 20px; 
+        margin-left: 65px;
+        width: 90%; 
+    }
+.about h5 {
+        font-size: 18px;
+        padding: 20px; 
+        margin-left: 40px;
+        width: 110%; 
+    }
+    .about h4 {
+        font-size: 25px;
+        padding: 20px; 
+        margin-left: 70px;
+        width: 100%; 
+    }
+    .about h3{
+        font-size: 25px;
+        padding: 20px; 
+        margin-left: 110px;
+        width: 100%; 
+    }
+    .contact h4{
+        margin-top: 200px;
+        width: 80%;
+    }
+    .contactus{
+        flex-wrap: wrap;
+        width: 100%;
+        
+      
+    }
+    .contactus .mail{
+        border-radius: 5px;
+    }
+    .mail .i{
+        padding: 20px;
+    }
+    
+    .contact{
+        margin-right: 80px;
+    }
+    .contact iframe{
+        width:110%;
+        margin-left: 20px;
+    }
+   .logo img{
+    margin-left: 80px;
+   }
+   .nav{
+    display: flex;
+    margin-left: 30px;
+    
+   }
+   .nav button{
+    margin-left: 0px;
+   }
+   .ceo img{
+    margin-left: 85px;
+   }
+   .ceo h4{
+    margin-left: 80px;
+    font-size: 20px;
+     }
+   .ceo h5{
+    margin-left: 82px;
+   
+   }
+
+}
